@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bell-reflection" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e5cb3" />
+      <stop offset="60%" stop-color="#124ca1" />
+      <stop offset="100%" stop-color="#0b316a" />
+    </linearGradient>
+  </defs>
+  <circle cx="250" cy="250" r="242" fill="#ffffff" stroke="#124ca1" stroke-width="15" />
+  <g stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 92 148 C 88 185 102 235 125 242 C 148 235 162 185 158 148" stroke="#124ca1" />
+    <path d="M 94 185 C 112 195 138 195 156 185" stroke="#124ca1" stroke-width="3.5" />
+    <ellipse cx="91" cy="144" rx="7" ry="4" fill="#124ca1" stroke="#124ca1" transform="rotate(-20 91 144)" />
+    <ellipse cx="159" cy="144" rx="7" ry="4" fill="#124ca1" stroke="#124ca1" transform="rotate(20 159 144)" />
+    <path d="M 125 242 L 125 258" stroke="#124ca1" stroke-width="5.5" />
+    <circle cx="125" cy="258" r="4.5" fill="#124ca1" />
+    <path d="M 125 262 C 124 290 128 322 155 322 L 240 322" stroke="#dc2626" stroke-width="5" />
+    <path d="M 240 322 L 252 300 L 262 344 L 274 285 L 285 352 L 296 314 L 305 322 L 380 322" stroke="#dc2626" stroke-width="5" />
+  </g>
+  <circle cx="395" cy="322" r="18" fill="url(#bell-reflection)" />
+  <circle cx="395" cy="322" r="15" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.7" />
+  <circle cx="395" cy="322" r="18" fill="none" stroke="#124ca1" stroke-width="3" />
+  <g>
+    <text x="195" y="235" fill="#124ca1" font-size="130" font-weight="900" font-family="system-ui, -apple-system, sans-serif" letter-spacing="-4">C</text>
+    <text x="280" y="235" fill="#dc2626" font-size="130" font-weight="900" font-family="system-ui, -apple-system, sans-serif" letter-spacing="-4">P</text>
+    <text x="365" y="235" fill="#124ca1" font-size="130" font-weight="900" font-family="system-ui, -apple-system, sans-serif" letter-spacing="-4">R</text>
+  </g>
+  <text x="315" y="280" text-anchor="middle" fill="#111827" font-size="44" font-weight="bold" font-style="italic" font-family="'Brush Script MT', 'Dancing Script', cursive, sans-serif">Medical Academy</text>
+  <g font-size="21" font-weight="bold" font-family="'Times New Roman', Times, serif" text-anchor="middle">
+    <text x="250" y="380">
+      <tspan fill="#124ca1">Centre for </tspan>
+      <tspan fill="#dc2626">Post-gRaduation </tspan>
+      <tspan fill="#124ca1">(CPR)</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "CPR Medical Academy - BCS Exam Portal",
+  "description": "Special BCS Crystal Batch online examination portal for Mathematical Reasoning (গাণিতিক যুক্তি) with 40 questions, live countdown timer, BCS negative marking, and step-by-step solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
